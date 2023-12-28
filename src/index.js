@@ -7,7 +7,8 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App/> */}
+    <App componentName = {"Functional component"} initialValue ={5}/>
   </React.StrictMode>
 );
 
